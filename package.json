@@ -14,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dumi": "cross-env APP_ROOT=dumi dumi dev",
+    "dumi-build": "cross-env APP_ROOT=dumi dumi build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dumi": "^1.0.20"
   }
 }
